@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Countries</title>
+  <link rel="stylesheet" href="./css/all.min.css" />
+  <link rel="stylesheet" href="./css/main.css" />
+  <link rel="stylesheet" href="./css/media.css" />
+</head>
+
+<body>
+
+  <!-- ========== Header starting ========== -->
+
+  <header class="header">
+    <nav class="header-nav">
+      <div class="container container-flex">
+        <a href="./index.html" class="header-logo">Where in the world?</a>
+        <button class="header-darkmode">
+          <i class="fal fa-moon  header-darkmode__icon"></i>
+          Dark Mode
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="search-form">
+      <div class="container container-flex">
+        <form action="" class="search-form__form">
+          <i class="far fa-search search-form__icon"></i>
+          <input type="text" placeholder="Search for a country…" required class="search-form__inut">
+
+        </form>
+
+        <select name="" id="form_select" class="search-form__select">
+          <option value="Region" id="form_select">Filter by Region</option>
+          <option value="Africa" id="form_select">Africa</option>
+          <option value="North America" id="form_select">Americas</option>
+          <option value="Asia" id="form_select">Asia</option>
+          <option value="Europe" id="form_select">Europe</option>
+          <option value="Oceania" id="form_select">Oceania</option>
+        </select>
+      </div>
+    </section>
+
+    <section class="country">
+      <div class="container ">
+        <div class="country-cards">
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- ========== Main end    ========== -->
+
+
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
